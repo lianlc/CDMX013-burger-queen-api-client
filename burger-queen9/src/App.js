@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      {true ?
+      {false ?
         <RouterProvider router={RouteAuth} />:<RouterProvider router={NoAuthR} />}
     </>
   );
