@@ -57,9 +57,7 @@ a, button{
     background-color: aquamarine;
     margin-top: 5vh;
     margin-left: 5vw;
-    display: flex;
-    flex-wrap:wrap;
-    
+    overflow: scroll; 
 }
 
 .card{
@@ -68,6 +66,7 @@ a, button{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;  
+    background-color: pink;
 }
 
 .finishedOrder{ /*button*/
@@ -82,11 +81,12 @@ h4{
     margin-left: 1vw;
 }
 
-.card2{
+.cardOrderInProcess{
     margin: 2vh 2vw;
     width: 20vw;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;  
+    background-color: pink; 
 }
 

@@ -14,6 +14,7 @@ export const WaiterMainView = () => {
          <button type="button" class="addOrder"><Link to="/neworder">Agregar orden</Link></button>
    
          <main class="mainWaiter">
+        
          <section class="orderisReady"> 
             <p class="oneOrder">Orden lista:</p>
             <article class="card"><h4 className="leftItem">No. Orden: </h4><h4 id="tableNumber">No. Mesa: </h4>
@@ -24,13 +25,14 @@ export const WaiterMainView = () => {
                                   <h4 className="leftItem">➕</h4><button type="button" class="finishedOrder">Finalizar</button></article>
             
             
-            </section>
-            <section class="orderInProcess">
+        </section>
+        <section class="orderInProcess">
                 <p>Orden en proceso:</p>
                 <article class="cardOrderInProcess"><h4 className="leftItem">No. Orden: </h4><h4 id="tableNumber">No. Mesa: </h4>
                                   <h4 className="leftItem">1###</h4><h4>####</h4>
+                                  <h4 className="timer">⏰ Timer:</h4><h4>00:00 hrs.</h4>
                                   <h4 className="leftItem">➕</h4><button type="button" class="finishedOrder">Finalizar</button></article>
-            </section>
+        </section>
 
         </main>
   
