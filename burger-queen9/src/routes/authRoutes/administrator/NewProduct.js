@@ -17,10 +17,5 @@ export const NewP = ()=>{
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> b731541 (Just Save)
     )
 }
