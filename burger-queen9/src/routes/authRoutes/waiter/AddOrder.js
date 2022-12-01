@@ -38,16 +38,11 @@ export const WaiterNewOrderView = () => {
 
             <section className="orderitems">
                 <div className="headerOrder"><h4>Orden:</h4><p>Hora de orden:</p></div>
-<<<<<<< HEAD
                 <div className="description"><p>❌📝</p><p>cantidad</p><p>description</p><p>total</p></div>
                 <div className="description"><p>❌📝</p><p>cantidad</p><p>description</p><p>total</p></div>
                 <div className="description"><p> 🗑 ✏</p><p>cantidad</p><p>description</p><p>total</p></div>
                 <div className="description"><p> 🗑 ✏</p><p>cantidad</p><p>description</p><p>total</p></div>
                 <div className="totalOrder"><h4>TOTAL:</h4><h4>➡$500</h4></div>
-=======
-                <div className="description"><img src="./images/iconDelete.png" alt="delete"></img><p>cantidad</p><p>description</p><p>total</p></div>
-                <div className="totalOrder"><h4>TOTAL:</h4><h4> $500</h4></div>
->>>>>>> 38bf69a (shows view design of adminstrator)
             </section>
 
 </main>
