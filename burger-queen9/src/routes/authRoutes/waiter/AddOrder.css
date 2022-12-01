@@ -9,7 +9,7 @@
     margin-left: 5vw;
     /* flex-wrap: wrap;  */
     overflow: scroll;
-    background-color: blueviolet;
+    border-color: blueviolet;
 }
 
 .lunchdinner {
@@ -40,11 +40,11 @@
 }
 
 .orderitems{
-    background-color: brown;
+   
     margin-right: 5vw;
     width: 40vw;
-    height: 70vh;
-    background-color: aquamarine;
+    /* height: 70vh; */
+    /* background-color: aquamarine; */
     margin-top: 5vh;
     margin-left: 5vw;
     overflow: scroll; 
@@ -55,20 +55,24 @@
     justify-content: space-between;
     background-color: #334249;
     font-size: x-large;
+    color:#fff;
 }
 .description{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    background-color: #BCB7BD;
 }
 
 .totalOrder{
-    display: flex;
-    position: fixed;
+    /* display: flex;
+    position: fixed; */
     bottom: 5vh;
     background-color: #334249;
     width: 38vw;
     justify-content: space-between;
     padding-right: 2vw;
+    color: #fff;
+    
 }
 .confirmOrden{
     display: flex;
